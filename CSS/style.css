@@ -1,2 +1,12 @@
-font-family: 'Cabin', sans-serif;
+    font {
+    font-family: 'Cabin', sans-serif;
+    }   
 
+
+    body {
+    background-color: light blue;
+  }
+
+  h1 {
+    font-family: 'Cabin', sans-serif;
+  }
