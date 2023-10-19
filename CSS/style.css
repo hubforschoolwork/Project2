@@ -9,6 +9,7 @@
 
     h1    {
         font-family: 'Cabin', sans-serif;
+        color: 'yellow'
     }
 
 
@@ -19,6 +20,7 @@
         grid-template-columns: auto auto auto;
         background-color: #ffd900;
         padding: 10px;
+        grid-align: bottom;
       }
       
       .grid-item {
