@@ -9,7 +9,9 @@
 
     h1    {
         font-family: 'Cabin', sans-serif;
-        color: 'yellow'
+        color: yellow;
+        text-align: center;
+        font-size: 500%;
     }
 
 
