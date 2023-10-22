@@ -31,7 +31,7 @@
         padding: 10px;
         grid-align: bottom;
         top-margin: 100px;
-        bottom-margin: 100px;
+        bottom-margin: 200px;
       }
       
       .grid-item {
@@ -43,8 +43,8 @@
       }
 
       .img {
-      width:200px;
-      height:200px;
+      width:500px;
+      height:500px;
       top-margin: 30px;
       bottom-margin: 30px;
       align: center;
