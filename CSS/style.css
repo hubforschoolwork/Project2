@@ -30,6 +30,8 @@
         background-color: #ffd900;
         padding: 10px;
         grid-align: bottom;
+        top-margin: 100px;
+        bottom-margin: 100px;
       }
       
       .grid-item {
@@ -38,4 +40,12 @@
         padding: 20px;
         font-size: 30px;
         text-align: center;
+      }
+
+      .img {
+      width:200px;
+      height:200px;
+      top-margin: 30px;
+      bottom-margin: 30px;
+      align: center;
       }
