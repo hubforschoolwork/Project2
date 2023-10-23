@@ -42,14 +42,14 @@
         text-align: center;
       }
 
-      .container1 {
+      .flex-container {
       width:100px;
       height:100px;
       align-items: center;
       display: flex;
       }
 
-      .container-img {
+      .flex-container-img {
         width: fit-content;
         height: fit-content;
         margin: auto;
