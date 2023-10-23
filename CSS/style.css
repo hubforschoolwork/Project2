@@ -45,12 +45,13 @@
       .container1 {
       width:100px;
       height:100px;
-      align: center;
+      align-items: center;
       display: flex;
       }
 
       .container-img {
-        width: auto;
+        width: fit-content;
+        height: fit-content;
         margin: auto;
         display: block;
       }
