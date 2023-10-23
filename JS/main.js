@@ -1,55 +1,44 @@
-//Giphy Search Endpoint Code
-//javascript, jQuery
-
-var xhr = $.get("http://api.giphy.com/v1/gifs/search?q=ryan+gosling&api_key=YOUR_API_KEY&limit=5");
-xhr.done(function(data) { console.log("success got data", data); });
 
 
+let APIKEY = "Q6L8XBChVRjszwqs37nFobAyeH2GERr0"
 
 
+document.addEventListener("DOMContentLoaded", init);
+      function init() {
+        document.getElementById("btnSearch").addEventListener("click", ev => {
+          ev.preventDefault(); 
+
+          let url = `https://api.giphy.com/v1/gifs/search?api_key=${APIKEY}&limit=9&q=`;
+          let str = document.getElementById("search").value.trim();
+          url = url.concat(str);
+          console.log(url);
 
 
-//Click Listener
-
-document.addEventListener("click", function (event) {
-    // Checking if the button was clicked
-    if (!event.target.matches("#button")) return;
-  
-    console.log("Button was clicked!");
-  });
+fetch(url)
+.then(response => response.json())
+.then(content => {
+  console.log(content.data);
+  console.log("META", content.meta);
 
 
-//Fetch
+  let fig = document.createElement("figure");
+  let img = document.createElement("img");
+  let fc = document.createElement("figcaption");
+  img.src = content.data[0].images.downsized.url;
+  img.alt = content.data[0].title;
 
-fetch("<https://official-joke-api.appspot.com/random_joke>")
-.then((response) => response.json())
-.then((data) => renderJoke(data));
-.catch(() => renderError());
+  fc.textContent = content.data[0].title;
+  fig.appendChild(img);
+  fig.appendChild(fc);
+  let out = document.querySelector(".out");
+  out.insertAdjacentElement("afterbegin", fig);
+  document.querySelector("#search").value = "";
+})
+
+
+.catch(err => {
+  console.error(err);
 });
+});
+}
 
-
-//Taking object received from Endpoint and add elements InnerHTML
-
-function renderJoke(data) {
-    //Getting elements
-    
-    const setup = document.getElementById("setup");
-    const punchline = document.getElementById("punchline");
-
-    const error = document.getElementById("error");
-    error.innerHTML = "";
-
-    setup.innerHTML = data.setup;
-    punchline.innerHTML = data.punchline;
-  }
-
-
-
-  function renderError() {
-    const error = document.getElementById("error");
-    error.innerHTML = "Whoops, something went wrong. Please try again later!";
-  }
-
-
-
-  
