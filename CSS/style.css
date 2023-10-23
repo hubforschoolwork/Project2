@@ -42,10 +42,15 @@
         text-align: center;
       }
 
-      .img {
-      width:500px;
-      height:500px;
-      top-margin: 30px;
-      bottom-margin: 30px;
+      .container1 {
+      width:100px;
+      height:100px;
       align: center;
+      display: flex;
+      }
+
+      .container-img {
+        width: auto;
+        margin: auto;
+        display: block;
       }
