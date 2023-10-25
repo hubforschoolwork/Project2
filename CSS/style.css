@@ -27,8 +27,8 @@
         background-color: #ffd900;
         padding: 10px;
         grid-align: bottom;
-        top-margin: 100px;
-        bottom-margin: 200px;
+        margin-top: 100px;
+        margin-bottom: 200px;
       }
       
       .grid-item {
@@ -43,6 +43,7 @@
       width:100px;
       height:100px;
       align-items: center;
+      justify-content: center;
       display: flex;
       }
 
