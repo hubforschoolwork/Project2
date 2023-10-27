@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", init);
         document.getElementById("btnSearch").addEventListener("click", ev => {
           ev.preventDefault(); 
 
-          let url = `https://api.giphy.com/v1/gifs/search?api_key=${APIKEY}&limit=9&q=`;
+          let url = `https://api.giphy.com/v1/gifs/search?api_key=${APIKEY}&limit=6&q=`;
           let str = document.getElementById("search").value.trim();
           url = url.concat(str);
           console.log(url);
