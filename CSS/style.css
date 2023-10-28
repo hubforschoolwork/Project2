@@ -1,5 +1,6 @@
     font {
         font-family: 'Cabin', sans-serif;
+        color: yellow;
     }   
 
     
@@ -52,12 +53,7 @@
         height: fit-content;
         margin: auto;
         display: block;
-      }
-
-
-
-
-
+ 
 
 
 
