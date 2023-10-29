@@ -19,15 +19,12 @@
       font-size: 200%;
   }
 
-
-
     .grid-container {
         display: grid;
         column-gap: 50px;
         grid-template-columns: auto auto auto;
         background-color: #ffd900;
         padding: 10px;
-        grid-align: bottom;
         margin-top: 100px;
         margin-bottom: 200px;
       }

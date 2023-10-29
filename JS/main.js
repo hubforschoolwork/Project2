@@ -13,8 +13,8 @@ document.addEventListener("DOMContentLoaded", init);
           url = url.concat(str);
           console.log(url);
 
-
-fetch(url)
+          
+          fetch(url)
 .then(response => response.json())
 .then(content => {
   console.log(content.data);
