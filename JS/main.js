@@ -3,6 +3,7 @@
 let APIKEY = "Q6L8XBChVRjszwqs37nFobAyeH2GERr0"
 
 
+
 document.addEventListener("DOMContentLoaded", init);
       function init() {
         document.getElementById("btnSearch").addEventListener("click", ev => {
