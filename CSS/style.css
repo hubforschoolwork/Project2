@@ -36,9 +36,9 @@ font {
         display: flex;
         flex-grow: 1;
         flex-shrink: 1;
-        gap: 1vw;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 2fr 2fr;
+        gap: 30px;
+        grid-template-columns: repeat(3);
+        grid-template-rows: 2;
         margin-top: 100px;
         margin-bottom: 200px;    
       }
