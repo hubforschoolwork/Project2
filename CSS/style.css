@@ -1,4 +1,18 @@
-    font {
+body {
+  font-family: "Agbalumo", serif;
+  font-size: 100%;
+}
+ 
+body {
+background-color:sienna;
+//  background-image: url('https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+background-repeat: no-repeat;
+background-attachment: fixed;  
+background-size: cover;
+} 
+
+
+font {
         font-family: 'Agbalumo', serif;
         color: yellow;
     }   
@@ -12,7 +26,7 @@
     }
 
     h3    {
-      font-family: 'Cabin', sans-serif;
+      font-family: 'Agbalumo', serif;
       color: yellow;
       text-align: center;
       font-size: 200%;
@@ -30,35 +44,15 @@
       }
       
       .grid-item {
-         font-size: 30px;
+        font-size: 30px;
         text-align: center;
-      }
-
-      .flex-container {
-      width:200px;
-      height:200px;
-      align-items: center;
-      justify-content: center;
-      display: flex;
-      }
-
-      .flex-container-img {
-        width: fit-content;
-        height: fit-content;
-        margin: auto;
-        display: block;
-      }
-
-      .container {
+      } 
+ 
+      .content {
         margin-left: auto;
         margin-right: auto;
       }
 
-
-      .container2 {
-        display: flex;
-
-      }
       @media (width < 320px) {
         .h1 { 
           align-items: center;
@@ -71,12 +65,7 @@
         }
       }
 
-      @media (width < 320px) {    
-        .container2 {
-          align-items: center;
-        }
-      }
-
+     
       @container (width < 320px) {
         .container-fluid {
           align-items: center;
