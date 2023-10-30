@@ -3,9 +3,7 @@
         color: yellow;
     }   
 
-
-    
-
+   
     h1    {
         font-family: 'Cabin', sans-serif;
         color: yellow;
@@ -22,12 +20,12 @@
 
     .grid-container {
         display: grid;
-        column-gap: 50px;
-        grid-template-columns: auto auto auto;
-        background-color: #ffd900;
-        padding: 10px;
+        gap: 1vw;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 2fr 2fr;
         margin-top: 100px;
         margin-bottom: 200px;
+        justify-items: center;
       }
       
       .grid-item {
@@ -65,26 +63,18 @@
         .h3 {
           align-items: center;
         }
-
-      }  
-      @container (width < 320px) {
-        .container-fluid {
+        .container2 {
           align-items: center;
-          display: block;
-          container-type: inline-size;
-        } 
-      }
-
-      @container (width < 320px) {
-        .grid-container {
-          align-items: center;
-          container-type: inline-size;
         }
       }
 
 
-      @media (width < 320px) {
-        .container2 {
+      @container (width < 320px) {
+        .container-fluid {
+          align-items: center;
+          display: block;
+        } 
+        .grid-container {
           align-items: center;
         }
       }
