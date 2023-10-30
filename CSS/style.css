@@ -69,17 +69,24 @@
       .h3 {
           align-items: center;
         }
+      }
+
+      @media (width < 320px) {    
         .container2 {
           align-items: center;
         }
-        
+          
 
 
       @container (width < 320px) {
         .container-fluid {
           align-items: center;
-        } 
+        }
+      }
+      
+      @container (width < 320px) {
         .grid-container {
           align-items: center;
         }
       }
+      
