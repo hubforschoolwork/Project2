@@ -1,11 +1,11 @@
     font {
-        font-family: 'Cabin', sans-serif;
+        font-family: 'Agbalumo', serif;
         color: yellow;
     }   
 
    
     h1    {
-        font-family: 'Cabin', sans-serif;
+        font-family: 'Agbalumo', serif;
         color: yellow;
         text-align: center;
         font-size: 300%;
@@ -75,8 +75,7 @@
         .container2 {
           align-items: center;
         }
-          
-
+      }
 
       @container (width < 320px) {
         .container-fluid {
@@ -89,4 +88,3 @@
           align-items: center;
         }
       }
-      
