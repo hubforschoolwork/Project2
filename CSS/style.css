@@ -53,6 +53,24 @@ font {
         margin-right: auto;
       }
 
+      .grid-container {
+        display: flex;
+        flex-grow: 1;
+        flex-shrink: 1;
+        gap: 30px;
+        grid-template-columns: repeat(3);
+        grid-template-rows: 2;
+        margin-top: 100px;
+        margin-bottom: 200px;    
+      }
+      
+      .grid-item {
+        font-size: 30px;
+        text-align: center;
+      } 
+ 
+
+
       @media (width < 320px) {
         .h1 { 
           align-items: center;
