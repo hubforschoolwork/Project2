@@ -68,7 +68,16 @@ font {
         font-size: 30px;
         text-align: center;
       } 
- 
+ .container-images {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    gap: 30px;
+    grid-template-columns: repeat(3);
+    grid-template-rows: 2;
+    margin-top: 500px;
+    margin-bottom: 500px;    
+}
 
 
       @media (width < 320px) {
