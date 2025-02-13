@@ -3,110 +3,113 @@ body {
   font-size: 100%;
   color: yellow;
 }
- 
+
 body {
-background-image: url('https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
-background-repeat: no-repeat;
-background-attachment: fixed;  
-background-size: cover;
-} 
-
-
-font {
-        font-family: 'Agbalumo', serif;
-        color: yellow;
-}   
-
-   
-    h1    {
-        font-family: 'Agbalumo', serif;
-        color: yellow;
-        text-align: center;
-        font-size: 300%;
-    }
-
-    h3    {
-      font-family: 'Agbalumo', serif;
-      color: yellow;
-      text-align: center;
-      font-size: 200%;
-  }
-
-  .grid-container {
-        font-family: "Agbalumo", serif;
-        color: yellow;
-        display: flex;
-        flex-grow: 1;
-        flex-shrink: 1;
-        gap: 30px;
-        grid-template-columns: repeat(3);
-        grid-template-rows: 2;
-        margin-top: 100px;
-        margin-bottom: 200px;    
-      }
-      
-      .grid-item {
-        font-size: 30px;
-        text-align: center;
-      } 
- 
-      .content {
-        margin-left: auto;
-        margin-right: auto;
-      }
-
-      .grid-container {
-        font-family: "Agbalumo", serif;
-        color: yellow;
-        display: flex;
-        flex-grow: 1;
-        flex-shrink: 1;
-        gap: 30px;
-        grid-template-columns: repeat(3);
-        grid-template-rows: 2;
-        margin-top: 100px;
-        margin-bottom: 200px;    
-      }
-      
-      .grid-item {
-        font-size: 30px;
-        text-align: center;
-      } 
- .container-images {
-    font-family: "Agbalumo", serif;
-    color: yellow;
-    display: flex;
-    flex-grow: 1;
-    flex-shrink: 1;
-    gap: 30px;
-    grid-template-columns: repeat(3);
-    grid-template-rows: 2;
-    margin-top: 500px;
-    margin-bottom: 500px;    
+  background-image: url('https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 
-      @media (width < 320px) {
-        .h1 { 
-          align-items: center;
-        }
-      }
-      
-      @media (width < 320px) {  
-      .h3 {
-          align-items: center;
-        }
-      }
+font {
+  font-family: 'Agbalumo', serif;
+  color: yellow;
+}
 
-     
-      @container (width < 320px) {
-        .container-fluid {
-          align-items: center;
-        }
-      }
-      
-      @container (width < 320px) {
-        .grid-container {
-          align-items: center;
-        }
-      }
+
+h1 {
+  font-family: 'Agbalumo', serif;
+  color: yellow;
+  text-align: center;
+  font-size: 300%;
+}
+
+h3 {
+  font-family: 'Agbalumo', serif;
+  color: yellow;
+  text-align: center;
+  font-size: 200%;
+}
+
+.grid-container {
+  font-family: "Agbalumo", serif;
+  color: yellow;
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  gap: 30px;
+  grid-template-columns: repeat(3);
+  grid-template-rows: 2;
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+.grid-item {
+  font-size: 30px;
+  text-align: center;
+}
+
+.content {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid-container {
+  font-family: "Agbalumo", serif;
+  color: yellow;
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  gap: 30px;
+  grid-template-columns: repeat(3);
+  grid-template-rows: 2;
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+.grid-item {
+  font-size: 30px;
+  text-align: center;
+}
+
+.container-images {
+  font-family: "Agbalumo", serif;
+  color: yellow;
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  gap: 30px;
+  grid-template-columns: repeat(3);
+  grid-template-rows: 2;
+  margin-top: 500px;
+  margin-bottom: 500px;
+}
+
+
+@media (width < 320px) {
+  .h1 {
+    align-items: center;
+  }
+}
+
+@media (width < 320px) {
+  .h3 {
+    align-items: center;
+  }
+}
+
+
+@container (width < 320px) {
+  .container-fluid {
+    align-items: center;
+  }
+}
+
+@container (width < 320px) {
+  .grid-container {
+    align-items: center;
+  }
+}
+
+

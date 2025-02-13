@@ -31,11 +31,6 @@
 
 <body>
 
-<h1>Welcome</h1>
-<h3>to</h3>
-<h1>Find It!</h1>
-
-
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Find It</a>
@@ -63,20 +58,40 @@
     </div>
   </nav>
 
+
+
+<h1>Welcome</h1>
+<h3>to</h3>
+<h1>Find It!</h1>
+  
  
-<main>
-<div class="container">
+<!-- <main> -->
+<!-- <div class="container">
   <div id="content">
     <form>
       <label for="search">Search</label>
       <input id="search" type="search" class="col-sm-5 col-sm-label">
       <span class="input-group-btn" style="width: 300px;"></span>
-      <button id="btnSearch" style="margin-top: 100px; margin-bottom: 200px" width="300px">Go</button>
-
+      <button class="submit" id="btnSearch" style="margin-top: 100px; margin-bottom: 200px" width="300px">Go</button>
     </form>
   </div>
-</div>  
-</main>
+</div>   -->
+<!-- </main> -->
+
+<div class="row justify-content-center">
+  <label for="search" class="col-sm-3 col-sm-label" style="text-align: right;">Search</label>
+  <div class="col-sm-3">
+    <input id="search" type="search" class="form-control"
+      style="border: 1px solid black; margin-bottom: 15px;">
+  </div>
+  <div class="row justify-content-center">
+    <span class="input-group-btn" style="width: 300px;"></span>
+    <button class="submit btn btn-md btn-light" id="btnSearch"
+      style="margin-top: 20px; border: 1px solid black; width: 10%; font-weight: bold;">Submit</button>
+  </div>
+</div>
+
+</form>
 
 
 
