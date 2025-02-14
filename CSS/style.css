@@ -65,7 +65,7 @@ h3 {
   margin-right: auto;
 }
 
-.grid-container {
+/* .grid-container {
   font-family: "Agbalumo", serif;
   color: yellow;
   display: flex;
@@ -76,7 +76,7 @@ h3 {
   grid-template-rows: 2;
   margin-top: 100px;
   margin-bottom: 200px;
-}
+} */
 
 .grid-item {
   font-size: 30px;
