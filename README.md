@@ -30,9 +30,7 @@ The following future improvements are suggested:
 - Create/highlight a "Featured" gif of the day/week.
 - Create a new layout for search results.
 
-## GitHub Pages Website
 
-- https://hubforschoolwork.github.io/Project1A/
 
 
 
